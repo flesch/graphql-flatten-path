@@ -2,6 +2,8 @@
 
 The `info` argument of a GraphQL resolver [can often be mysterious](https://www.prisma.io/blog/graphql-server-basics-demystifying-the-info-argument-in-graphql-resolvers-6f26249f613a/), but it doesn't have to be! `graphql-flatten-path` will "flatten" that path taken through each resolver, resulting in a one dimensional array of `fieldNames`.
 
+![flatten](https://user-images.githubusercontent.com/13259/52522115-90c9fc00-2c46-11e9-8803-4d1570374d51.png)
+
 ## Install
 
 To get started, add `graphql-flatten-path` to your project:

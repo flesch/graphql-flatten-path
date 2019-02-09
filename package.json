@@ -2,7 +2,7 @@
   "name": "graphql-flatten-path",
   "description": "Flatten a GraphQL resolver's `info.path` into an array of field names.",
   "homepage": "https://github.com/flesch/graphql-flatten-path",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/index.js",
   "author": {
     "email": "john@fles.ch",
