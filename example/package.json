@@ -1,0 +1,20 @@
+{
+  "name": "graphql-flatten-path-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "John Flesch <john@fles.ch> (https://fles.ch)",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^14.1.1",
+    "graphql-middleware": "^3.0.2",
+    "graphql-tools": "^4.0.4"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  }
+}

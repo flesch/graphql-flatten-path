@@ -1,0 +1,49 @@
+{
+  "name": "graphql-flatten-path",
+  "description": "Flatten a GraphQL resolver's `info.path` into an array of field names.",
+  "homepage": "https://github.com/flesch/graphql-flatten-path",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "author": {
+    "email": "john@fles.ch",
+    "name": "John Flesch",
+    "url": "https://fles.ch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flesch/graphql-flatten-path.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flesch/graphql-flatten-path/issues"
+  },
+  "keywords": [
+    "ancestor",
+    "array",
+    "depth",
+    "graphql",
+    "info",
+    "path",
+    "resolver",
+    "traverse"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-typescript": "^7.1.0",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "chokidar-cli": "^1.2.1",
+    "prettier": "^1.14.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir dist --extensions \".ts\"",
+    "prepare": "npm run prettier && npm run build",
+    "prettier": "prettier --write \"**/*.{js,ts,json,graphql}\"",
+    "watch": "npm run prepare && chokidar \"src/index.ts\" --command \"npm run prepare\" --throttle 1000"
+  },
+  "license": "MIT"
+}
