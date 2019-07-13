@@ -2,7 +2,7 @@
   "name": "graphql-flatten-path",
   "description": "Flatten a GraphQL resolver's `info.path` into an array of field names.",
   "homepage": "https://github.com/flesch/graphql-flatten-path",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./dist/index.js",
   "author": {
     "email": "john@fles.ch",
@@ -28,13 +28,13 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "@babel/cli": "^7.1.2",
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.3.1",
-    "@babel/preset-typescript": "^7.1.0",
-    "babel-plugin-add-module-exports": "^1.0.0",
-    "chokidar-cli": "^1.2.1",
-    "prettier": "^1.14.3"
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "chokidar-cli": "^1.2.2",
+    "prettier": "^1.18.2"
   },
   "files": [
     "dist"
